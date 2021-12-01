@@ -3,6 +3,8 @@ using System.IO;
 
 using Microsoft.Extensions.Logging;
 
+using R5T.Magyar.IO;
+
 using R5T.D0093;
 using R5T.T0064;
 
@@ -25,6 +27,8 @@ namespace R5T.D0095.I001
 
                 var loggerSynchronicity = await gettingLoggerSynchronicity;
                 var logFilePath = await gettingLogFilePath;
+
+                FileHelper.EnsureDirectoryForFilePathExists(logFilePath);
 
                 var textWriter = new StreamWriter(logFilePath);
 
