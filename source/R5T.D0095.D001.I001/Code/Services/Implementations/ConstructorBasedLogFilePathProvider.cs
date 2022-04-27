@@ -13,7 +13,7 @@ namespace R5T.D0095.D001.I001
 
 
         public ConstructorBasedLogFilePathProvider(
-            string logFilePath)
+            [NotServiceComponent] string logFilePath)
         {
             this.LogFilePath = logFilePath;
         }

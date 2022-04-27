@@ -13,7 +13,7 @@ namespace R5T.D0095.D001.I001
 
 
         public ConstructorBasedLogFileNameProvider(
-            string logFileName)
+            [NotServiceComponent] string logFileName)
         {
             this.LogFileName = logFileName;
         }
