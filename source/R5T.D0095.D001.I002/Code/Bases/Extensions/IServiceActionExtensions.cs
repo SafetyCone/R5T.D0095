@@ -10,7 +10,7 @@ namespace R5T.D0095.D001.I002
     public static class IServiceActionExtensions
     {
         /// <summary>
-        /// Adds the <see cref="LogFilePathProvider"/> implementation of <see cref="ILogFilePathProvider"/> as a <see cref="ServiceLifetime.Singleton"/>.
+        /// Adds the <see cref="LogFilePathProvider"/> implementation of <see cref="ILogFilePathProvider"/> as a <see cref="Microsoft.Extensions.DependencyInjection.ServiceLifetime.Singleton"/>.
         /// </summary>
         public static IServiceAction<ILogFilePathProvider> AddLogFilePathProviderAction(this IServiceAction _,
             IServiceAction<ILogFileNameProvider> logFileNameProviderAction,

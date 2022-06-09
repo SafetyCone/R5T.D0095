@@ -9,7 +9,7 @@ namespace R5T.D0095.D001.I001
     public static class IServiceActionExtensions
     {
         /// <summary>
-        /// Adds the <see cref="ConstructorBasedLogFileNameProvider"/> implementation of <see cref="ILogFileNameProvider"/> as a <see cref="ServiceLifetime.Singleton"/>.
+        /// Adds the <see cref="ConstructorBasedLogFileNameProvider"/> implementation of <see cref="ILogFileNameProvider"/> as a <see cref="Microsoft.Extensions.DependencyInjection.ServiceLifetime.Singleton"/>.
         /// </summary>
         public static IServiceAction<ILogFileNameProvider> AddConstructorBasedLogFileNameProviderAction(this IServiceAction _,
             string logFileName)
