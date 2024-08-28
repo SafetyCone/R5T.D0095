@@ -8,7 +8,7 @@
     <ProjectReference Include="..\R5T.D0095.D001.Base\R5T.D0095.D001.Base.csproj" />
   </ItemGroup>
   <PropertyGroup>
-    <TargetFramework>net5.0</TargetFramework>
+    <TargetFramework>net8.0</TargetFramework>
     <GenerateDocumentationFile>true</GenerateDocumentationFile>
     <NoWarn>1591;1573</NoWarn>
     <CheckEolTargetFramework>false</CheckEolTargetFramework>

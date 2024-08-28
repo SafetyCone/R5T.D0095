@@ -41,6 +41,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "R5T.T0086", "..\..\R5T.T008
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "R5T.T0143", "..\..\R5T.T0143\source\R5T.T0143\R5T.T0143.csproj", "{E8882431-958E-4DC0-9618-5874CF22B2DB}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{F270370D-782D-411F-A342-A0F5774E75B5}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(NestedProjects) = preSolution
 		{5358E73F-026E-489E-9F92-40C6987F9912} = {35395B66-057F-4D50-8187-356613FCEF84}
